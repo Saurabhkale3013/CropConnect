@@ -70,7 +70,8 @@ const graph = require("./routes/graph.js");
 const ai = require("./routes/ai.js");
 const auth = require("./routes/auth");
 
-const PORT = process.env.PORT || 8080;
+// const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 const app = express();
 
 // CORS setup
